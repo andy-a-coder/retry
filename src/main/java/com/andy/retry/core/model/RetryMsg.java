@@ -11,10 +11,11 @@ import lombok.NoArgsConstructor;
  *
  */
 @Data
-@NoArgsConstructor
 public class RetryMsg implements Serializable {
     private static final long serialVersionUID = 1L;
 
+    public RetryMsg() {}
+    
     public RetryMsg(String retryName, int order, String msg, Class<?> msgClass) {
         this.retryName = retryName;
         this.order = order;
