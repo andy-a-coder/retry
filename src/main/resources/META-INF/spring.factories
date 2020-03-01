@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.andy.retry.executor.ExecutorRouter,\
+com.andy.retry.core.RetryInterceptor,\
+com.andy.retry.core.RetryManager
