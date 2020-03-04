@@ -66,7 +66,7 @@ rocketmq:
 
 ## 3、设计原理
 主要原理是以RocketMq的18个延迟级别的队列为基础，通过拼接来定制任意时间间隔的延迟通知策略。
-### 1）重试过程交互图
+### 1）重试过程交互图(interaction.png)
 ![](https://github.com/andy-a-coder/retry/blob/master/interaction.png?raw=true)
-### 2）消息处理流程图
+### 2）消息处理流程图(flow.png)
 ![](https://github.com/andy-a-coder/retry/blob/master/flow.png?raw=true)
