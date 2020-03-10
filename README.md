@@ -44,7 +44,7 @@ public class OrderNoticeExecutor implements RetryExecutor<SampleModel>{
 
 ```
 ## 2、集成方式
-### 1）添加maven依赖
+### 1）添加maven依赖(请关注maven中央仓库中的版本)
 ```
 <dependency>
     <groupId>com.github.andy-a-coder</groupId>
