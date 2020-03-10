@@ -49,7 +49,7 @@ public class OrderNoticeExecutor implements RetryExecutor<SampleModel>{
 <dependency>
     <groupId>com.github.andy-a-coder</groupId>
     <artifactId>retry</artifactId>
-    <version>1.0.0</version>
+    <version>${version}</version>
 </dependency>
 ```
 ### 2）yml配置
