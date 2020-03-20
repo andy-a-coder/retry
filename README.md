@@ -12,8 +12,19 @@
 public class OrderNoticeExecutor implements RetryExecutor<SampleModel>{
     @Override
     @Retry(retryStrategy = {"1s","7s","1m","30m","2h","1d"})
-    public String execute(SampleModel model) {
-        // Do what you want ...
+    public <R> R execute(SampleModel model) {
+//        Do what you want ...
+//        RestTemplate restTemplate = new RestTemplate();
+//        Map<String, Object> paramMap = new HashMap<>();
+//        HttpHeaders headers = new HttpHeaders();
+//        headers.setContentType(MediaType.APPLICATION_JSON);
+//        
+//        paramMap.put("code", "2000");
+//        paramMap.put("status", "success");
+//        paramMap.put("message", "save order success");
+//        paramMap.put("orderId", model.getOrderId());
+//        paramMap.put("amount", model.getAmount());
+//        restTemplate.postForEntity(model.getCallbackUrl(), new HttpEntity<>(paramMap, headers), String.class);
         return "...";
     }
     /**
