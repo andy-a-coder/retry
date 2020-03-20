@@ -3,7 +3,6 @@ package com.andy.retry.core.model;
 import java.io.Serializable;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * 重试消息模型

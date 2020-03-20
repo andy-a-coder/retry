@@ -11,7 +11,7 @@
     <groupId>com.github.andy-a-coder</groupId>
     <artifactId>retry</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>retry</name>
     <description>An easy-to-use distributed retry component to help resolve the eventual consistency of calls between services in a distributed environment.</description>
     <url>https://github.com/andy-a-coder/retry</url>
