@@ -4,7 +4,7 @@
     * 支持任意次数，任意长度的时间间隔配置，最小单位是秒（时间单位支持： s-秒；m-分钟；h-小时；d-天）
     * 时间配置必须带单位，否则认为是无效配置，立即重试
 ## 1、代码中的使用方式(通过注解使用)
-* 以下简单介绍，更多完整示例参见：[https://github.com/andy-a-coder/idempotent-sample](https://github.com/andy-a-coder/idempotent-sample) 
+* 以下简单介绍，更多完整示例参见：[https://github.com/andy-a-coder/retry-sample](https://github.com/andy-a-coder/retry-sample) 
 
 ### 1）实现RetryExecutor接口（每个重试逻辑写一个实现类），将可能重试的业务逻辑写在execute方法中，使用@Retry注解定制通知策略
 ```
